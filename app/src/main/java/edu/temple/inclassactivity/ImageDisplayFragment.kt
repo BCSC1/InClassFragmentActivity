@@ -45,6 +45,7 @@ class ImageDisplayFragment : Fragment() {
         }
     }
 
+
     companion object {
         fun newInstance(images: IntArray) =
             ImageDisplayFragment().apply {
